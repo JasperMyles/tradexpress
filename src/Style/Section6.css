@@ -1,0 +1,40 @@
+.float{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+.reviews h1{
+    padding-top: 30px;
+    font-size: 38px;
+}
+
+@media(max-width: 1286px) {
+    .float{
+        display: block;
+        grid-template-columns: 1fr;
+        align-items: center;
+        align-content: space-between;
+        padding: 30px;
+        margin: 0 auto;
+    }
+    .union1{
+        margin-bottom: 20px;
+    }
+    .union2{
+        margin-bottom: 20px;
+    }
+    .union1 img{
+        width: 50%;
+    }
+    .union2 img{
+        width: 50%;
+    }
+    .union3 img{
+        width: 50%;
+    }
+}
+@media(max-width: 661px){
+    .reviews h1{
+        font-size: 25px;
+    }
+}

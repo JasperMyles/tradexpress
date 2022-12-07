@@ -1,0 +1,102 @@
+    .section1{
+        background-color: #7C1FBF;
+        /* background-image: url('../Images/Group\ 127.png'); */
+        line-height: 40px;
+        text-align: start;
+        height: 670px;
+        
+    }
+    .circleBack{
+        height: 700px;
+        width: 100%;
+        background-image: url('../Images/Group\ 127.png');
+        background-position: top 5px left 420px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+    }
+
+    .buySell{
+        color: white;
+        margin-left: 98px;
+    }
+    .buySell h2{
+        font-size: 45px;
+        font-weight: 700;
+        font-style: normal;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+
+    .easilyTrade{
+        margin: 0 auto;
+        color: white;
+        margin-left: 100px;
+    }
+    button {
+    width: 40%;
+    max-width: 339px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #7C1FBF;
+    padding: 5px;
+    margin-left: 100px;
+    } 
+   
+    .stores{
+        display: flex;
+        margin-left: 100px;
+        margin-top: 30px;   
+    }
+    .span1{
+        margin-right: 10px;
+    }
+    .span1 img{
+        width: 90%;
+        max-width: 100%;
+    }
+    .span2 img{
+        width: 90%;
+        width: 100%;
+    }
+    @media(max-width: 661px){
+        .circleBack{
+            height: 700px;
+            width: 100%;
+            background-image: url('../Images/Group\ 127.png');
+            background-position: top 5px left 250px;
+        }
+        .section1{
+            background-color: #7C1FBF;
+            height: 30rem;
+            
+        }
+        .stores{
+            margin: 0 auto;
+            margin-top: 30px;
+            margin-left: 50px;
+            
+        }
+        .buySell h2{
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-style: normal;
+            margin-left: 50px;
+        }
+        .buySell{
+            margin: 0 auto;
+            color: white;
+            padding-top: 40px;
+    
+        }
+        .easilyTrade{
+            margin-left: 0px;
+            color: white;
+            margin-left: 50px;
+
+        }
+        button{
+           margin-left: 50px;
+        }
+        
+    }

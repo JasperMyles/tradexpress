@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    text-align: start;
+
+}
+.Footed{
+    background-color: #EDE9EF;
+    margin: 0 auto;
+    padding: 0px
+}
+.products h1{
+    font-size: 16px;
+    font-style: normal;
+    line-height: 19px;
+    color: #26093A;
+   
+}
+@media(max-width: 661px) {
+    .footer{
+        display: block;
+        grid-template-columns: 1fr;
+        align-items: center;
+        align-content: space-between;
+        padding: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .Footed{
+
+    }
+}

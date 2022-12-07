@@ -1,0 +1,80 @@
+.getInvolved{
+    background-color: #E5E5E5;
+    margin: 0 auto;
+}
+.see{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.people h1{
+    font-size: 38px;
+    font-style: Bold;
+    margin: 0 auto;
+    line-height: 38px;
+    color: #26093A;
+    margin-bottom: 20px;
+    padding: 30px;
+    
+}
+.people button{
+    border: 1px solid #7C20BE;
+    width: 150px;
+    margin: 0 auto;
+    background-color: #E5E5E5;
+    padding: 12px;
+    margin-bottom: 50px;
+}
+ .Easy1{
+    background-color: white;
+    color: #26093A;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 50px;
+    align-content: center;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    
+ }
+ .Easy2{
+    background-color: white;
+    color: #26093A;
+    max-width: 320px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+ }
+ .Easy3{
+    background-color: white;
+    color: #26093A;
+    max-width: 320px;
+    padding: 50px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+ }
+@media(max-width: 1000px) {
+    .see{
+        display: block;
+        grid-template-columns: 1fr;
+        align-items: center;
+        align-content: space-between;
+        height: 70rem;
+    }
+}
+@media(max-width: 661px){
+    .people h1{
+        font-size: 25px;
+        font-style: Bold;
+        margin: 0 auto;
+        line-height: 38px;
+        color: #26093A;
+        margin-bottom: 20px;
+        padding: 30px;
+        
+    }
+}
