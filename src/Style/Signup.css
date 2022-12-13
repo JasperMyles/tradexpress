@@ -1,0 +1,60 @@
+.Signup{
+        background-color: #EEEDEE;
+        width: 601px;
+        margin: 0 auto;
+        margin-top: 60px;
+        box-shadow: 0 4px 2px 0px lightgray;
+        padding: 30px;
+        margin-bottom: 40px;
+}
+.signin1{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
+}
+.activation{
+    width: 28rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+.ire{
+margin-bottom: 30px;
+}
+.mail{
+margin-bottom: 30px;
+}
+.up{
+    width: 15rem;
+    background-color: #7C20BF;
+    margin: 0 auto;
+    padding:  7px;
+}
+.signin2{
+    text-decoration: none;
+}
+.an{
+    margin-top: 30px;
+}
+@media (max-width: 661px){
+    .Signup{
+        background-color: #EEEDEE;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 60px;
+        box-shadow: 0 4px 2px 0px lightgray;
+        padding: 30px;
+        margin-bottom: 40px;
+}
+.activation{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.up{
+    width: 90%;
+    background-color: #7C20BF;
+    margin: 0 auto;
+}
+}

@@ -1,17 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Style/Section3.css'
 import Easy from '../Images/rafiki.png'
 import Financial from '../Images/amico.png'
 import Investment from '../Images/cuate.png'
+import {Link} from 'react-router-dom'
+import {useRef} from "react"
 
 const Section3 = () => {
+    const [data, setData] = useState("See Less")
+    const divRef = useRef();
+
   return (
     <div className='getInvolved'>
         <div className='people'>
             <h1>Why do people get involved with Cryptocurrencies</h1>
-            <button>See Less</button>
-        </div>
-        <div className='see'>
+            <button onClick={()=>{
+                if(divRef.current.classList.contains("active")){
+                    divRef.current.classList.remove("active");
+                    setData("See Less");
+                    console.log("hh");
+                } else{
+                    divRef.current.classList.contains("active")
+                    divRef.current.classList.contains.add("active")
+                    setData("See More");
+                }
+            }} className='bit'>{data}</button>
+             <div ref={divRef} className='see'>
             <div className='Easy1'>
                 <img src={Easy} alt="" srcset="" />
                 <h5>Easy Mode of Payment</h5>
@@ -32,6 +46,7 @@ const Section3 = () => {
                     Gold used for alternatives store of wealth on long term investments.
                 </p>
             </div>
+        </div>
         </div>
     </div>
   )

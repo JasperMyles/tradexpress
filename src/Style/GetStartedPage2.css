@@ -1,0 +1,131 @@
+.Welcomeback{
+  background-color: #EEEDEE;
+  width: 601px;
+  margin: 0 auto;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 2px 0px lightgray;
+}
+.getstarted2 {
+  display: flex;
+  justify-content: space-between;
+margin: 0 auto;
+border: 1px solid #E4E4E4;
+border-radius: 20px;
+background-color: #E4E4E4;
+/* padding: 5px; */
+width: 90%;
+}
+.Link2 {
+  text-decoration: none;
+  color: black;
+}
+.Link1 {
+    text-decoration: none;
+    color: black;
+   margin: 0 auto;
+   margin-left: 40px;
+   padding-top: 80px;
+  }
+.Fullform2 {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 700px;
+}
+.Get3{
+    text-decoration: none;
+    color: white;
+}
+.getstarted4{
+    margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #7C1FBF;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.terms{
+    text-decoration: none;
+}
+.bit4{
+  background-color: white;
+  height: 38px;
+  padding: 5px;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  padding-left: 70px;
+  }
+  .bit3{
+    height: 36px;
+    padding: 5px;
+    text-align: center;
+    padding-left: 20px;
+    }
+     @media (max-width: 661px){
+    .Welcomeback{
+      background-color: #EEEDEE;
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 60px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 2px 0px lightgray;
+  }
+  .getstarted2 {
+    display: flex;
+    justify-content: space-around;
+  margin: 0 auto;
+  border: 1px solid #E4E4E4;
+  border-radius: 20px;
+  background-color: #E4E4E4;
+  /* padding: 5px; */
+  width: 90%;
+}
+.bit4{
+  background-color: white;
+  height: 38px;
+  padding: 5px;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 20px;
+  /* padding-right: 70px; */
+  }
+  .bit3{
+    height: 36px;
+    padding: 5px;
+    text-align: center;
+    }
+  }
+  @media (max-width: 360px){
+    .bit4{
+      background-color: white;
+      height: 38px;
+      padding: 5px;
+      margin: 0 auto;
+      text-align: center;
+      width: 55%;
+      border-radius: 20px;
+      /* padding-right: 70px; */
+      }
+      .bit3{
+        height: 36px;
+        padding: 5px;
+        text-align: center;
+        }
+      .getstarted2 {
+        display: flex;
+        justify-content: space-between;
+      margin: 0 auto;
+      border: 1px solid #E4E4E4;
+      border-radius: 20px;
+      background-color: #E4E4E4;
+      /* padding: 5px; */
+      width: 90%;
+    }
+  }

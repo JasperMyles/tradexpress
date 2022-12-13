@@ -1,0 +1,67 @@
+.Instant2{
+  background-color: #EEEDEE;
+  width: 601px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 2px 0px lightgray;
+  padding: 30px;
+}
+  .wel2{
+    margin-bottom: 20px;
+}
+  .bit8{
+    background-color: white;
+    height: 38px;
+    padding: 5px;
+    text-align: center;
+    width: 55%;
+    border-radius: 20px;
+    }
+    .bit7{
+      height: 36px;
+      padding: 5px;
+      text-align: center;
+      width: 55%;
+      }
+      .Link8{
+        text-decoration: none;
+        color: black;
+      }
+      .Link7 {
+          text-decoration: none;
+          color: black;
+        }
+        .getstarted6 {
+          display: flex;
+          justify-content: space-between;
+        margin: 0 auto;
+        border: 1px solid #E4E4E4;
+        border-radius: 20px;
+        background-color: #E4E4E4;
+        width: 90%;
+        margin-bottom: 30px;
+        }
+      .continue1{
+        margin: 0 auto;
+        border: none;
+        border-radius: 5px;
+        background-color: #7C1FBF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      .mb-3{
+        height: 48px;
+      }
+      @media (max-width: 661px){
+        .Instant2{
+          background-color: #EEEDEE;
+          width: 90%;
+          margin: 0 auto;
+          margin-top: 60px;
+          margin-bottom: 30px;
+          box-shadow: 0 4px 2px 0px lightgray;
+          padding: 30px;
+        }
+      }

@@ -10,17 +10,17 @@
       backgroundColor: "#7C20BE",
     }
     return (
-      <div>
+      <div className='Navigation'>
       <Navbar className='Navbarone' expand="lg">
       <Container>
         <Navbar.Brand><Link to="/"><img src={TradExpresslogo} alt="" /></Link></Navbar.Brand>
         <Navbar.Toggle className='col' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Link className='Linkone' href="#home">Instant Buy/Sell</Link>
-            <Link className='Linkone' href="#link">Learn</Link>
-            <Link className='login' href="#home">Login</Link>
-            <Link className='started' to="./getstarted"  href="#home">Get Started</Link>
+          <Nav className="me-auto floatnav">
+            <Link className='Linkone' to="/instant">Instant Buy/Sell</Link>
+            <Link className='Linkone1'>Learn</Link>
+            <Link to="/login" className='login'>Login</Link>
+            <Link className='started' to="/getstarted">Get Started</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

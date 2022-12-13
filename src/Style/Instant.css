@@ -1,0 +1,71 @@
+.Instant1{
+    background-color: #EEEDEE;
+    width: 601px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 2px 0px lightgray;
+    padding: 30px;
+  }
+  .Fullform3 {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 700px;
+  }
+  .wel2{
+    padding: 10px;
+}
+
+.getstarted5 {
+  display: flex;
+  justify-content: space-between;
+margin: 0 auto;
+border: 1px solid #E4E4E4;
+border-radius: 20px;
+background-color: #E4E4E4;
+width: 90%;
+margin-bottom: 30px;
+}
+.bit5{
+  background-color: white;
+  height: 38px;
+  padding: 5px;
+  text-align: center;
+  width: 55%;
+  border-radius: 20px;
+  }
+  .bit6{
+    height: 38px;
+    padding: 5px;
+    text-align: center;
+    width: 55%;
+    }
+    .Link5{
+      text-decoration: none;
+      color: black;
+      /* margin-right: 10px; */
+    }
+    .Link6 {
+        text-decoration: none;
+        color: black;
+      }
+      .continue{
+        margin: 0 auto;
+        border: none;
+        border-radius: 5px;
+        background-color: #7C1FBF;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+      }
+      @media (max-width: 661px){
+        .Instant1{
+          background-color: #EEEDEE;
+          width: 90%;
+          margin: 0 auto;
+          margin-top: 60px;
+          margin-bottom: 30px;
+          box-shadow: 0 4px 2px 0px lightgray;
+          padding: 30px;
+        }
+      }
